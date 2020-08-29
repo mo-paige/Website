@@ -135,7 +135,6 @@
       itemSelector: '.portfolio-item',
       layoutMode: 'fitRows'
     });
-
     $('#portfolio-flters li').on('click', function() {
       $("#portfolio-flters li").removeClass('filter-active');
       $(this).addClass('filter-active');
@@ -149,6 +148,7 @@
     // Initiate venobox (lightbox feature used in portofilo)
     $(document).ready(function() {
       $('.venobox').venobox();
+      portfolioIsotope.isotope({ filter: '.filter-ex' });
     });
   });
 

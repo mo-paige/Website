@@ -11,5 +11,5 @@ change tab title
 make my oval a circle
 change profile pic sizing
 move my name on homepage
-change favicon (tab icon)
+change favicon 
 
