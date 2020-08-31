@@ -216,6 +216,8 @@ h1, h2, h3, h4, h5, h6 {
   background: url("../img/doghouse.jpg") top right;
   background-size: contain;
   background-repeat: no-repeat;
+  background-color: #05151a;
+  ;
 }
 @media screen and (max-width: 600px){
   #hero {
@@ -762,6 +764,7 @@ section {
 --------------------------------------------------------------*/
 .contact {
   padding-bottom: 130px;
+  background-color: #f5f8fd;
 }
 
 .contact .info {
